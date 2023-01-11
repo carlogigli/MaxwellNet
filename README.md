@@ -1,6 +1,6 @@
 # MaxwellNet
 
-A physics driven neural network to perform finite difference frequency domain electromagnetic simulations
+A physics driven neural network to perform finite difference frequency domain electromagnetic simulations.
 
 This repository contains the code to reproduce the results in the
 paper ["Predicting nonlinear optical scattering with physics-driven neural networks"](https://arxiv.org/abs/2208.05793).
