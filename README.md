@@ -20,7 +20,7 @@ and `valid.npz`. These files contain an array `n` with size `[N,1,Nx,Ny]` corres
 distributions to use during training/validation. The directory should also contain a JSON file
 called `specs_maxwell.json` with the parameters of the network, simulation domain and training scheduler.
 
-Some examples can be found in the folder `data` which contains a script `shape_generator.py` used to create the dataset.
+The script `dataset_generator.py` contains some functions to create different shape datasets, e.g. the lenses used in the paper.
 
 
 ### Colab interface
