@@ -167,7 +167,7 @@ def save_dset(directory, n, power, src = None, chi3 = None):
 
 if __name__ == '__main__':
 
-    directory = './data/lc_lenses/test3'
+    directory = './data/microlenses'
 
     specs_filename = os.path.join(directory,'specs_maxwell.json')
     specs = json.load(open(specs_filename))

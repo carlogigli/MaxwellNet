@@ -1,0 +1,35 @@
+{
+  "Description": [
+    "This experiment learns to solve the Maxwell's equations",
+    "for aspheric lenses made of BK7."
+  ],
+  "NetworkArch": "maxwellnet",
+  "NetworkSpecs": {
+    "depth": 6,
+    "filter": 16,
+    "norm": "weight",
+    "up_mode": "upconv"
+  },
+  "PhysicalSpecs": {
+    "wavelength": 1.03,
+    "dpl": 20,
+    "nb": 1.0,
+    "Nx": 320,
+    "Nz": 192,
+    "pml_thickness": 30,
+    "symmetry_x": true,
+    "mode": "te",
+    "high_order": "fourth",
+    "periodic": false,
+    "n2" : 3.59e-20
+  },
+  "Seed": 2,
+  "LearningRate": 0.0005,
+  "LearningRateDecay": 0.8,
+  "LearningRateDecayStep": 2000,
+  "Epochs": 20000,
+  "BatchSize": 10,
+  "SnapshotFrequency":  2000,
+  "TensorboardFrequency": 1
+}
+
